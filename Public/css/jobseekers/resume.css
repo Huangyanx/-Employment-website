@@ -1,0 +1,342 @@
+body {
+	margin: 0;
+	min-height: 1500px;
+}
+
+img {
+	vertical-align: middle;
+}
+
+ul {
+	list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+	border: 1px solid #eee;
+	outline: none;
+	border-radius: 3px;
+}
+
+::selection {
+	color: #fff;
+	background-color: #53cac3;
+}
+
+.inner {
+	width: 1024px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.inner .left {
+	float: left;
+	margin-top: -50px;
+	margin-left: -55px;
+}
+
+.inner .right {
+	float: right;
+}
+
+#header {
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 24px;
+	background-color: #53cac3;
+}
+
+#header a {
+	display: inline-block;
+	font-size: 16px;
+	color: #fff;
+	padding: 0 20px;
+	vertical-align: top;
+}
+
+#header .logo {
+	width: 50px;
+	height: 50px;
+	margin-right: 25px;
+	padding: 0;
+	background: url('/aoshi/Public/images/logos.gif') center no-repeat;
+}
+
+.btn {
+	border: 1px solid #eee;
+	border-radius: 3px;
+	padding: 10px 30px;
+	color: #666;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.btn:focus {
+	outline: none!important;
+}
+
+
+/*简历内容*/
+
+#resume .resume-inner {
+	width: 702px;
+}
+
+#resume .edit,
+#resume .del {
+	padding-left: 20px;
+	position: absolute;
+	right: 0;
+	font-size: 16px;
+	color: #23cbc2;
+	background-color: #fafafa;
+}
+
+#resume .del {
+	right: 52px;
+}
+
+#resume .add {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 20px;
+	color: #23cbc2;
+	font-size: 16px;
+	border: 1px dashed #ddd;
+	background-color: #fefefe;
+	cursor: pointer;
+}
+
+#resume .add:hover {
+	border-color: #23cbc2;
+}
+
+#resume form {
+	visibility: hidden;
+	padding: 30px 50px 10px;
+	background-color: #fff;
+}
+
+#resume form fieldset {
+	border: none;
+	margin-bottom: 20px;
+}
+
+#resume form label {
+	width: 100px;
+	line-height: 38px;
+	text-align: right;
+	color: #666;
+	margin-right: 20px;
+}
+
+#resume form textarea {
+	resize: none;
+	width: 100%;
+	padding: 15px;
+	color: #666;
+}
+
+#resume form .input-text {
+	padding: 10px 15px;
+	width: 320px;
+	color: #555;
+}
+
+#resume form .submit {
+	margin: 0 15px 0 124px;
+	color: #fff;
+	border-color: #53cac3;
+	background-color: #53cac3;
+}
+
+#basic .info {
+	margin: -15px 0;
+	padding: 15px 0;
+}
+
+#basic .info:hover {
+	background-color: #fff;
+}
+
+#basic .edit {
+	display: none;
+	top: 0;
+	background-color: transparent;
+}
+
+#basic:hover .edit {
+	display: block;
+}
+
+#resume .status select {
+	width: 200px;
+	height: 40px;
+	padding: 0 15px;
+	color: #666;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+#resume .status select:hover {
+	color: #333;
+	background-color: #fff;
+}
+
+
+/*简历导航*/
+
+#resume .resume-nav {
+	width: 280px;
+}
+
+#resume .resume-nav .integrity {
+	margin-bottom: 15px;
+	padding: 5px 15px;
+	background-color: #fafafa;
+	border: 1px solid #eee;
+	border-radius: 3px;
+}
+
+#resume .resume-nav .integrity em {
+	color: #00C2B8;
+	font-style: normal;
+}
+
+#resume .resume-nav .nav a {
+	display: block;
+	padding: 15px 50px;
+	color: #333;
+	border-left: 2px solid #eee;
+}
+
+#resume .resume-nav .nav a:hover {
+	background-color: #fafafa;
+}
+
+#resume .resume-nav .nav a.selected {
+	color: #00C2B8;
+	background-color: #fafafa;
+	border-left-color: #00C2B8;
+}
+
+
+/*简历样式*/
+
+#preview {
+	position: relative;
+	width: 702px;
+	margin: auto;
+	font-size: 14px;
+	background-color: #fafafa;
+	z-index: 1;
+}
+
+#preview .portrait {
+	position: absolute;
+	top: 44px;
+	left: 292px;
+	z-index: -1;
+	width: 120px;
+	height: 120px;
+}
+
+#preview article {
+	position: relative;
+	width: 604px;
+	margin: auto;
+}
+
+#preview article .title {
+	position: relative;
+	line-height: 35px;
+	margin: 24px 0;
+}
+
+#preview article .title:after,
+#preview article .title:before {
+	display: inline-block;
+	vertical-align: middle;
+	content: "";
+	width: 227px;
+	height: 1px;
+	background-color: #eee;
+}
+
+#preview article .title span {
+	font-size: 18px;
+	padding: 7px 24px;
+	background-color: #eee;
+	border-radius: 18px;
+	margin: 0 13px;
+}
+
+#preview .basic {
+	margin-top: 15px;
+	padding: 15px 0;
+	text-align: center;
+}
+
+#preview .info div:nth-child(1) {
+	line-height: 40px;
+	font-size: 30px;
+	color: #333;
+}
+
+#preview .info div:nth-child(2) {
+	line-height: 34px;
+	font-size: 16px;
+	color: #333;
+}
+
+#preview .basic span {
+	margin: 0 10px;
+	line-height: 24px;
+	color: #666;
+}
+
+#preview .eduexp p,
+#preview .jobexp p {
+	margin: 24px 0;
+}
+
+#preview .eduexp em,
+#preview .jobexp em {
+	font-style: normal;
+}
+
+#preview .eduexp em:nth-child(1),
+#preview .jobexp em:nth-child(1) {
+	font-size: 16px;
+	color: #333;
+}
+
+#preview .eduexp em:nth-child(2),
+#preview .jobexp em:nth-child(2) {
+	float: right;
+	color: #888;
+}
+
+#preview .eduexp em:nth-child(4),
+#preview .jobexp em:nth-child(4) {
+	line-height: 20px;
+	color: #888;
+}
+
+#preview .career em {
+	display: inline-block;
+	font-style: normal;
+	text-align: center;
+	width: 24.5%;
+	line-height: 24px;
+	font-size: 16px;
+}
+
+#preview .status {
+	margin-top: 24px;
+	text-align: center;
+	line-height: 88px;
+	background-color: #f6f6f6;
+}

@@ -1,0 +1,116 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 微软雅黑;
+    .body {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        .bg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(../../images/enterprise/index.jpg);
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: cover;
+        }
+        .logo{
+            height: 40px;
+            z-index: 100;
+            position: absolute;
+            top: 60px;
+            left: 80px;
+            moz-user-select: -moz-none;
+            -moz-user-select: none;
+            -o-user-select:none;
+            -khtml-user-select:none; /* you could also put this in a class */
+            -webkit-user-select:none;/* and add the CSS class here instead */
+            -ms-user-select:none;
+            user-select:none;
+            .logoImg{
+                width: 60px;
+                height: 60px;
+                background-color: #53cac3;
+                border-radius: 13px;
+                font-size: 14px;
+                text-align: center;
+                padding-top: 10px;
+                line-height: 20px;
+                color: #ffffff;
+                font-weight: 600;
+                float: left;
+            }
+            h3{
+                float: left;
+                line-height: 60px;
+                color: black;
+                font-size: 26px;
+                font-weight: 600;
+                margin: 0 0 0 30px;
+            }
+        }
+        .login{
+            position: absolute;
+            top: 130px;
+            left: calc(~'50% - 140px');
+            background-color: #FFFFFF;
+            width: 280px;
+            padding-bottom: 10px;
+            border-radius: 6px;
+            .touxiang{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                margin: 10px auto;
+                background-image: url(../../images/enterprise/boss.png);
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            form{
+                .form-group{
+                    width: 80%;
+                    margin: 16px auto 0;
+                    input{
+                        border-radius: 5px;
+                        width: 100%;
+                        padding-left: 10px;
+                        height: 32px;
+                    }
+                    input[type=submit]{
+                        width: 80%;
+                        margin: 0 10%;
+                    }
+                    img{
+                        width: 70%;
+                        margin:  5px 15% 5px;
+                    }
+                }
+                .log{
+                    margin-top: 0px;
+                }
+            }
+            ul{
+                margin: 20px auto 0;
+                width: 100%;
+                height: 20px;
+                padding: 0;
+                li{
+                    width: 100%;
+                    list-style: none;
+                    float: left;
+                    padding: 0 8px;
+                    text-align: center;
+                    font-size: 12px;
+                }
+
+            }
+        }
+    }
+}

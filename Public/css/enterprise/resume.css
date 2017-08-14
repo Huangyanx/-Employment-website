@@ -1,0 +1,156 @@
+.content {
+  width: 900px;
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #ffffff;
+}
+.content form {
+  background-color: #53cac3;
+  padding: 20px 0;
+}
+.content form .search_nav {
+  width: 100%;
+  height: 70px;
+}
+.content form .search_nav .dropdown {
+  width: 29%;
+  float: left;
+  height: 70px;
+  margin-left: 3%;
+}
+.content form .search_nav .dropdown h5 {
+  color: white;
+  padding-left: 5px;
+}
+.content form .search_nav .dropdown button {
+  width: 100%;
+}
+.content form .search_nav .dropdown ul {
+  width: 100%;
+}
+.content form .search_box {
+  width: 100%;
+  margin-top: 20px;
+  height: 40px;
+  position: relative;
+}
+.content form .search_box input[type='text'] {
+  margin-left: 3%;
+  width: 61%;
+  height: 40px;
+  resize: none;
+  padding-left: 10px;
+  border-radius: 3px;
+}
+.content form .search_box input[type='submit'] {
+  margin-left: 3%;
+  height: 40px;
+  width: 20%;
+  border: none;
+}
+.content form .search_box .back_up {
+  position: absolute;
+  bottom: 3px;
+  right: 10px;
+  color: white;
+}
+.content .tit_box {
+  width: 100%;
+  position: relative;
+  width: 900px;
+  margin: 0;
+  moz-user-select: -moz-none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  /* you could also put this in a class */
+  -webkit-user-select: none;
+  /* and add the CSS class here instead */
+  -ms-user-select: none;
+  user-select: none;
+}
+.content .tit_box div {
+  float: left;
+  list-style: none;
+  line-height: 50px;
+  font-size: 14px;
+  height: 50px;
+  text-align: center;
+  padding: 0;
+}
+.content .tit_box #all_check {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.content .tit_box .delete_all {
+  cursor: pointer;
+  color: red;
+  position: absolute;
+  width: 30px;
+  line-height: 50px;
+  top: 0;
+  right: 23px;
+}
+.content .table {
+  margin: 0;
+  width: 100%;
+  max-width: 900px;
+  moz-user-select: -moz-none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  /* you could also put this in a class */
+  -webkit-user-select: none;
+  /* and add the CSS class here instead */
+  -ms-user-select: none;
+  user-select: none;
+}
+.content .table tr {
+  position: relative;
+  width: 100%;
+}
+.content .table tr th {
+  padding: 0;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-weight: normal;
+}
+.content .table tr th .btn-info {
+  height: 31px;
+  margin-top: -3px;
+}
+.content .table tr th .btn-danger {
+  height: 31px;
+  margin-top: -3px;
+}
+.content .table tr th button {
+  width: 80px;
+  height: 29px;
+  padding: 0;
+}
+.content .table tr th button a {
+  width: 100%;
+  line-height: 29px;
+  height: 100%;
+  display: block;
+  color: white;
+}
+.content .table tr th button a:hover {
+  text-decoration: none;
+}
+.content .table tr th input[type=checkbox] {
+  width: 15px;
+  height: 15px;
+  margin: 10px 0 0 0;
+  cursor: pointer;
+}
+.content .tip {
+  margin-top: 20px;
+}
+.content .tip p {
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 8px;
+}

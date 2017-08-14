@@ -1,0 +1,229 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 微软雅黑;
+}
+.body {
+  width: 100%;
+  height: 100%;
+  min-width: 800px;
+}
+.body .header {
+  width: 100%;
+  height: 50px;
+  background-color: #53cac3;
+  border-bottom: 1px solid #00a49a;
+  position: relative;
+  z-index: 1000;
+  padding: 5px 0;
+}
+.body .header .logo {
+  height: 40px;
+  margin-left: 300px;
+  moz-user-select: -moz-none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  /* you could also put this in a class */
+  -webkit-user-select: none;
+  /* and add the CSS class here instead */
+  -ms-user-select: none;
+  user-select: none;
+}
+.body .header .logo .logoImg {
+  width: 50px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-size: 8px;
+  text-align: center;
+  padding-top: 5px;
+  line-height: 15px;
+  color: #53cac3;
+  font-weight: 600;
+  float: left;
+}
+.body .header .logo h3 {
+  float: left;
+  line-height: 40px;
+  color: #ffffff;
+  margin: 0 0 0 20px;
+}
+.body .nav_bar {
+  float: left;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background-color: #4f5e68;
+  height: 100%;
+  padding-top: 65px;
+}
+.body .nav_bar .touxiang {
+  width: 100%;
+  height: 120px;
+  border-bottom: 1px solid #47525a;
+}
+.body .nav_bar .touxiang .box {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #a76cbc;
+  line-height: 80px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.body .nav_bar .touxiang p {
+  line-height: 40px;
+}
+.body .nav_bar .nav_item {
+  margin-top: 16px;
+  color: #a4b9c6;
+  font-size: 16px;
+  padding-bottom: 58px;
+}
+.body .nav_bar .nav_item a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #a4b9c6;
+}
+.body .nav_bar .nav_item a:hover {
+  text-decoration: none;
+}
+.body .nav_bar .nav_item .selected {
+  background-color: #333e45;
+}
+.body .nav_bar .nav_item .item {
+  width: 100%;
+}
+.body .nav_bar .nav_item .item ul {
+  margin: 0;
+  padding: 0;
+}
+.body .nav_bar .nav_item .item ul li {
+  width: 100%;
+  font-size: 13px;
+  height: 35px;
+  line-height: 35px;
+  cursor: pointer;
+  background-color: #333e45;
+  padding-left: 80px;
+}
+.body .nav_bar .nav_item .item ul li a:hover {
+  text-decoration: none;
+}
+.body .nav_bar .nav_item .item ul .li_sel {
+  background-color: #222a2f;
+}
+.body .nav_bar .nav_item .item ul li:hover {
+  background-color: #222a2f;
+}
+.body .nav_bar .nav_item .item .tit {
+  width: 100%;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 20px;
+  position: relative;
+  cursor: pointer;
+}
+.body .nav_bar .nav_item .item .tit a {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.body .nav_bar .nav_item .item .tit [class^='icon_'] {
+  background: url(../../images/enterprise/menu_icon.png);
+  background-size: 168px 100px;
+  margin-top: 14px;
+  position: absolute;
+  width: 18px;
+  height: 24px;
+}
+.body .nav_bar .nav_item .item .tit .icon_job {
+  background-position: 0px 0;
+}
+.body .nav_bar .nav_item .item .tit .icon_me {
+  width: 20px;
+  background-position: 38px 0;
+}
+.body .nav_bar .nav_item .item .tit .icon_user {
+  width: 27px;
+  background-position: -76px 0px;
+}
+.body .nav_bar .nav_item .item .tit .icon_list {
+  width: 27px;
+  background-position: -82px 40px;
+}
+.body .nav_bar .nav_item .item .tit p {
+  margin-left: 36px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 0;
+  color: #a4b9c6;
+}
+.body .nav_bar .nav_item .item .it_sel {
+  background-color: #333e45;
+}
+.body .nav_bar .nav_item .item .tit:hover {
+  background-color: #333e45;
+}
+.body .nav_bar .nav_item .mess .tit .badge {
+  display: block;
+  position: absolute;
+  top: 14px;
+  right: 11px;
+}
+.body .nav_bar .tool {
+  height: 50px;
+  width: 100%;
+  background-color: #424f58;
+  position: absolute;
+  bottom: 0;
+  line-height: 50px;
+  color: #a4b9c6;
+  cursor: pointer;
+}
+.body .nav_bar .tool .i_logout {
+  width: 18px;
+  height: 16px;
+  background: url("../../images/enterprise/i_logout.png");
+  position: absolute;
+}
+.body .nav_bar .tool .logout {
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+.body .nav_bar .tool .logout a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #a4b9c6;
+}
+.body .nav_bar .tool .logout a:hover {
+  color: #a4b9c6;
+  text-decoration: none;
+}
+.body .nav_bar .tool .logout .i_logout {
+  top: 17px;
+  left: 45px;
+}
+.body .nav_bar .tool .logout p {
+  text-align: center;
+  color: #a4b9c6;
+}
+.body .container {
+  float: left;
+  background-color: #e9ecec;
+  width: calc(100% - 200px);
+  height: calc(100% - 51px);
+  margin-left: 200px;
+  overflow-y: auto;
+}
